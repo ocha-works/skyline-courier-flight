@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <title>Skyline Courier — a courier flight game</title>
 <style>
-  html, body { margin: 0; padding: 0; background: #0b1526; height: 100%; overflow: hidden; }
+  html, body { margin: 0; padding: 0; background: #0b1526; height: 100%; overflow: hidden; touch-action: none; }
   #wrap { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; }
-  canvas { display: block; background: #87b5d9; }
+  canvas { display: block; background: #87b5d9; max-width: 100vw; max-height: 100vh; width: auto; height: auto; }
 </style>
 </head>
 <body>
